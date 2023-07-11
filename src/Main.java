@@ -15,7 +15,7 @@ public class Main {
         } catch (WrongLoginException | WrongPasswordException e) {
             e.printStackTrace();
         } finally {
-            System.out.println("Проверка завершена");
+            System.out.println("Проверка завершена.");
         }
     }
 
