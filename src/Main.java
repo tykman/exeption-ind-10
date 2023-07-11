@@ -5,7 +5,7 @@ public class Main {
         checkLoginAndPassword("login", "password", "password");
         checkLoginAndPassword("логин", "password", "password");
         checkLoginAndPassword("login", "паспорт", "password");
-        checkLoginAndPassword("login", "password", "p@ZZword");
+        checkLoginAndPassword("login", "password", "paasword");
     }
 
     public static void checkLoginAndPassword(String login,String password,String confirmPassword) {
